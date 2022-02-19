@@ -152,7 +152,8 @@ button {
 /*=============== HEADER & NAV ===============*/
 .header{
     width: 100%;
-    background: #000;
+    /* background: #000; */
+    background: transparent;
     position: fixed;
     top: 0;
     left: 0;
@@ -242,17 +243,105 @@ button {
     right: 0;
 }
 
+/* Change Header's background color as you scroll */
+.scroll-header{
+   background-color: var(--color-body); 
+   box-shadow: 0 1px 4px hsla(0, 4%, 15%, 0.1);
+   transition: all 0.3s ease;
+}
 
-/* Change background header */
+.scroll-header .nav__logo,
+.scroll-header .nav__toggle{
+    color: var(--color-title);
+}
+
+.scroll-header .nav__logo-img{
+    mix-blend-mode: difference;
+}
+
+
 
 
 /* Active link */
 
 
 /*=============== HOME ===============*/
+.home{
+    gap: 0;
+}
 
+.home__container{
+    padding: 7rem 0 2.5rem;
+    background: linear-gradient(
+        160deg,
+        hsla(206, 5%, 24%, 1) -4%,
+        hsla(206, 12%, 12%, 1) 46%
+    )
+}
+
+.home__content{
+    position: relative;
+}
+
+.home__title,
+.home__data-title{
+    color: #fff;
+}
+
+.home__title{
+    font-size: var(--fz-largest);
+    margin-bottom: 1.5rem;
+}
+
+.home__title span{
+    color: var(--color-brand);
+}
+
+.home__description{
+    margin-bottom: 2rem;
+}
+
+.home__data{
+    border-top: 1px solid var(--color-text);
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.5rem;
+}
+
+.home__data-number{
+    color: var(--color-brand);
+    font-size: var(--fz-h1);
+    margin-bottom: 1.5rem;
+}
+
+.home__data-title{
+    font-size: var(--fz-h3);
+    margin-bottom: 0.5rem;
+}
+
+.home__scroll{
+    position: absolute;
+    width: 100px;
+    bottom: -7rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    animation: scroll 3s infinite;
+}
 
 /* Scroll image animate */
+@keyframes scroll{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-.5rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
 
 
 /*=============== BUTTON ===============*/
