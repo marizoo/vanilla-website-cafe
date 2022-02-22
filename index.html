@@ -20,10 +20,10 @@
         <!-- Site's title -->
         <title>Cafe</title>
     </head>
-    <body>
+    <body id="body-top">
         <!--==================== LOADER ====================-->
         <div class="load" id="load">
-            <img src="./img/loadcoffee.gif" alt="loading" class="load__gif">
+            <img src="./img/loadcoffee.gif" alt="loading" class="load__gif" />
         </div>
 
         <!--==================== HEADER ====================-->
@@ -181,17 +181,26 @@
 
                     <ul class="products__filters">
                         <!-- products item 1 -->
-                        <li class="products__item products__line" data-filter=".delicacies">
+                        <li
+                            class="products__item products__line"
+                            data-filter=".delicacies"
+                        >
                             <h3 class="products__title">New Delicacies</h3>
                             <span class="products__stock">3 products</span>
                         </li>
                         <!-- products item 2 -->
-                        <li class="products__item products__line" data-filter=".coffee">
+                        <li
+                            class="products__item products__line"
+                            data-filter=".coffee"
+                        >
                             <h3 class="products__title">Hot Coffee</h3>
-                            <span class="products__stock"><4  products/span>
+                            <span class="products__stock">4 products</span>
                         </li>
                         <!-- products item 3 -->
-                        <li class="products__item products__line" data-filter=".cake">
+                        <li
+                            class="products__item products__line"
+                            data-filter=".cake"
+                        >
                             <h3 class="products__title">Cakes & Delicacies</h3>
                             <span class="products__stock">4 products</span>
                         </li>
@@ -202,154 +211,200 @@
                         <!-- Delicacies 1 -->
                         <article class="products__card delicacies">
                             <div class="products__shape">
-                                <img src="./img/delicacies1.png" alt="delicacies 1" class="products__img">
+                                <img
+                                    src="./img/delicacies1.png"
+                                    alt="delicacies 1"
+                                    class="products__img"
+                                />
                             </div>
                             <div class="products__data">
                                 <h2 class="products__price">$5</h2>
                                 <h3 class="products__name">Cookies</h3>
 
                                 <button class="button products__button">
-                                    <i class='bx bx-shopping-bag'></i>
+                                    <i class="bx bx-shopping-bag"></i>
                                 </button>
                             </div>
                         </article>
                         <!-- Delicacies 2 -->
                         <article class="products__card delicacies">
                             <div class="products__shape">
-                                <img src="./img/delicacies2.png" alt="delicacies 2" class="products__img">
+                                <img
+                                    src="./img/delicacies2.png"
+                                    alt="delicacies 2"
+                                    class="products__img"
+                                />
                             </div>
                             <div class="products__data">
                                 <h2 class="products__price">$6</h2>
                                 <h3 class="products__name">Croissant</h3>
 
                                 <button class="button products__button">
-                                    <i class='bx bx-shopping-bag'></i>
+                                    <i class="bx bx-shopping-bag"></i>
                                 </button>
                             </div>
                         </article>
                         <!-- Delicacies 3 -->
                         <article class="products__card delicacies">
                             <div class="products__shape">
-                                <img src="./img/delicacies3.png" alt="delicacies 3" class="products__img">
+                                <img
+                                    src="./img/delicacies3.png"
+                                    alt="delicacies 3"
+                                    class="products__img"
+                                />
                             </div>
                             <div class="products__data">
                                 <h2 class="products__price">$4</h2>
                                 <h3 class="products__name">Pretzels</h3>
 
                                 <button class="button products__button">
-                                    <i class='bx bx-shopping-bag'></i>
+                                    <i class="bx bx-shopping-bag"></i>
                                 </button>
                             </div>
                         </article>
                         <!-- Coffee 1 -->
                         <article class="products__card coffee">
                             <div class="products__shape">
-                                <img src="./img/coffee1.png" alt="coffee 1"  class="products__img">
+                                <img
+                                    src="./img/coffee1.png"
+                                    alt="coffee 1"
+                                    class="products__img"
+                                />
                             </div>
                             <div class="products__data">
                                 <h2 class="products__price">$7</h2>
                                 <h3 class="products__name">Black Coffee</h3>
 
                                 <button class="button products__button">
-                                    <i class='bx bx-shopping-bag'></i>
+                                    <i class="bx bx-shopping-bag"></i>
                                 </button>
                             </div>
                         </article>
                         <!-- Coffee 2 -->
                         <article class="products__card coffee">
                             <div class="products__shape">
-                                <img src="./img/coffee2.png" alt="coffee 2"  class="products__img">
+                                <img
+                                    src="./img/coffee2.png"
+                                    alt="coffee 2"
+                                    class="products__img"
+                                />
                             </div>
                             <div class="products__data">
                                 <h2 class="products__price">$12</h2>
                                 <h3 class="products__name">Pure Coffee</h3>
 
                                 <button class="button products__button">
-                                    <i class='bx bx-shopping-bag'></i>
+                                    <i class="bx bx-shopping-bag"></i>
                                 </button>
                             </div>
                         </article>
                         <!-- Coffee 3 -->
                         <article class="products__card coffee">
                             <div class="products__shape">
-                                <img src="./img/coffee3.png" alt="coffee 3"  class="products__img">
+                                <img
+                                    src="./img/coffee3.png"
+                                    alt="coffee 3"
+                                    class="products__img"
+                                />
                             </div>
                             <div class="products__data">
                                 <h2 class="products__price">$9</h2>
                                 <h3 class="products__name">Milk Coffee</h3>
 
                                 <button class="button products__button">
-                                    <i class='bx bx-shopping-bag'></i>
+                                    <i class="bx bx-shopping-bag"></i>
                                 </button>
                             </div>
                         </article>
                         <!-- Coffee 4 -->
                         <article class="products__card coffee">
                             <div class="products__shape">
-                                <img src="./img/coffee4.png" alt="coffee 4"  class="products__img">
+                                <img
+                                    src="./img/coffee4.png"
+                                    alt="coffee 4"
+                                    class="products__img"
+                                />
                             </div>
                             <div class="products__data">
                                 <h2 class="products__price">$11</h2>
                                 <h3 class="products__name">Mocca Coffee</h3>
 
                                 <button class="button products__button">
-                                    <i class='bx bx-shopping-bag'></i>
+                                    <i class="bx bx-shopping-bag"></i>
                                 </button>
                             </div>
                         </article>
                         <!-- Cake 1 -->
                         <article class="products__card cake">
                             <div class="products__shape">
-                                <img src="./img/cake1.png" alt="cake 1"  class="products__img">
+                                <img
+                                    src="./img/cake1.png"
+                                    alt="cake 1"
+                                    class="products__img"
+                                />
                             </div>
                             <div class="products__data">
                                 <h2 class="products__price">$6</h2>
                                 <h3 class="products__name">Cream Cake</h3>
 
                                 <button class="button products__button">
-                                    <i class='bx bx-shopping-bag'></i>
+                                    <i class="bx bx-shopping-bag"></i>
                                 </button>
                             </div>
                         </article>
                         <!-- Cake 2 -->
                         <article class="products__card cake">
                             <div class="products__shape">
-                                <img src="./img/cake2.png" alt="cake 2"  class="products__img">
+                                <img
+                                    src="./img/cake2.png"
+                                    alt="cake 2"
+                                    class="products__img"
+                                />
                             </div>
                             <div class="products__data">
                                 <h2 class="products__price">$5</h2>
-                                <h3 class="products__name">Chocolate Croissant</h3>
+                                <h3 class="products__name">
+                                    Chocolate Croissant
+                                </h3>
 
                                 <button class="button products__button">
-                                    <i class='bx bx-shopping-bag'></i>
+                                    <i class="bx bx-shopping-bag"></i>
                                 </button>
                             </div>
                         </article>
                         <!-- Cake 3 -->
                         <article class="products__card cake">
                             <div class="products__shape">
-                                <img src="./img/cake3.png" alt="cake 3"  class="products__img">
+                                <img
+                                    src="./img/cake3.png"
+                                    alt="cake 3"
+                                    class="products__img"
+                                />
                             </div>
                             <div class="products__data">
                                 <h2 class="products__price">$15</h2>
                                 <h3 class="products__name">Pancake</h3>
 
                                 <button class="button products__button">
-                                    <i class='bx bx-shopping-bag'></i>
+                                    <i class="bx bx-shopping-bag"></i>
                                 </button>
                             </div>
                         </article>
                         <!-- Cake 4 -->
                         <article class="products__card cake">
                             <div class="products__shape">
-                                <img src="./img/cake4.png" alt="cake 4"  class="products__img">
+                                <img
+                                    src="./img/cake4.png"
+                                    alt="cake 4"
+                                    class="products__img"
+                                />
                             </div>
                             <div class="products__data">
                                 <h2 class="products__price">$12</h2>
                                 <h3 class="products__name">Milk Cake</h3>
 
                                 <button class="button products__button">
-                                    <i class='bx bx-shopping-bag'></i>
+                                    <i class="bx bx-shopping-bag"></i>
                                 </button>
                             </div>
                         </article>
@@ -361,13 +416,22 @@
             <section class="quality section" id="premium">
                 <div class="quality__container container">
                     <h2 class="section__title">
-                        We offer a premium and better quality preparation just for you!
+                        We offer a premium and better quality preparation just
+                        for you!
                     </h2>
 
                     <div class="quality__content grid">
                         <div class="quality__images">
-                            <img src="./img/quality1.png" alt="quality" class="quality__img-big">
-                            <img src="./img/quality2.png" alt="quality" class="quality__img-small">
+                            <img
+                                src="./img/quality1.png"
+                                alt="quality"
+                                class="quality__img-big"
+                            />
+                            <img
+                                src="./img/quality2.png"
+                                alt="quality"
+                                class="quality__img-small"
+                            />
                         </div>
 
                         <div class="quality__data">
@@ -375,15 +439,19 @@
                             <h2 class="quality__price">$94.99</h2>
                             <span class="quality__special">Special Price</span>
                             <p class="quality__description">
-                                We are delighted Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, explicabo for a special price.
+                                We are delighted Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Exercitationem,
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Numquam, explicabo for a
+                                special price.
                             </p>
 
                             <div class="quality__buttons">
                                 <button class="button">Buy Now</button>
 
                                 <a href="#" class="quality__button">
-                                    See More 
-                                    <i class='bx bx-right-arrow-alt'></i>
+                                    See More
+                                    <i class="bx bx-right-arrow-alt"></i>
                                 </a>
                             </div>
                         </div>
@@ -394,11 +462,31 @@
             <!--==================== LOGOS ====================-->
             <section class="logo section">
                 <div class="logo__container container grid">
-                    <img src="./img/logocoffee1.png" alt="coffee logo" class="logo__img">
-                    <img src="./img/logocoffee2.png" alt="coffee logo" class="logo__img">
-                    <img src="./img/logocoffee3.png" alt="coffee logo" class="logo__img">
-                    <img src="./img/logocoffee4.png" alt="coffee logo" class="logo__img">
-                    <img src="./img/logocoffee5.png" alt="coffee logo" class="logo__img">
+                    <img
+                        src="./img/logocoffee1.png"
+                        alt="coffee logo"
+                        class="logo__img"
+                    />
+                    <img
+                        src="./img/logocoffee2.png"
+                        alt="coffee logo"
+                        class="logo__img"
+                    />
+                    <img
+                        src="./img/logocoffee3.png"
+                        alt="coffee logo"
+                        class="logo__img"
+                    />
+                    <img
+                        src="./img/logocoffee4.png"
+                        alt="coffee logo"
+                        class="logo__img"
+                    />
+                    <img
+                        src="./img/logocoffee5.png"
+                        alt="coffee logo"
+                        class="logo__img"
+                    />
                 </div>
             </section>
 
@@ -413,9 +501,13 @@
                         <!-- Article 1 -->
                         <article class="blog__card">
                             <div class="blog__image">
-                                <img src="./img/blog1.png" alt="blog" class="blog__img">
+                                <img
+                                    src="./img/blog1.png"
+                                    alt="blog"
+                                    class="blog__img"
+                                />
                                 <a href="#" class="blog__button">
-                                    <i class='bx bx-right-arrow-alt'></i>
+                                    <i class="bx bx-right-arrow-alt"></i>
                                 </a>
                             </div>
 
@@ -424,15 +516,18 @@
                                     12 Benefits of drinking coffee
                                 </h2>
                                 <p class="blog__description">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias cupiditate quo aliquam odit corrupti consequatur maxime doloremque qui aperiam quaerat.
+                                    Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Molestias cupiditate quo
+                                    aliquam odit corrupti consequatur maxime
+                                    doloremque qui aperiam quaerat.
                                 </p>
                                 <div class="blog__footer">
                                     <div class="blog__reaction">
-                                        <i class='bx bx-comment'></i>
+                                        <i class="bx bx-comment"></i>
                                         <span>12</span>
                                     </div>
                                     <div class="blog__reaction">
-                                        <i class='bx bx-show'></i>
+                                        <i class="bx bx-show"></i>
                                         <span>76.5k</span>
                                     </div>
                                 </div>
@@ -441,9 +536,13 @@
                         <!-- Article 2 -->
                         <article class="blog__card">
                             <div class="blog__image">
-                                <img src="./img/blog2.png" alt="blog" class="blog__img">
+                                <img
+                                    src="./img/blog2.png"
+                                    alt="blog"
+                                    class="blog__img"
+                                />
                                 <a href="#" class="blog__button">
-                                    <i class='bx bx-right-arrow-alt'></i>
+                                    <i class="bx bx-right-arrow-alt"></i>
                                 </a>
                             </div>
 
@@ -452,15 +551,18 @@
                                     10 different type of coffee
                                 </h2>
                                 <p class="blog__description">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem ducimus corporis, praesentium non consequuntur nulla delectus sapiente ad.
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Quidem ducimus corporis,
+                                    praesentium non consequuntur nulla delectus
+                                    sapiente ad.
                                 </p>
                                 <div class="blog__footer">
                                     <div class="blog__reaction">
-                                        <i class='bx bx-comment'></i>
+                                        <i class="bx bx-comment"></i>
                                         <span>47</span>
                                     </div>
                                     <div class="blog__reaction">
-                                        <i class='bx bx-show'></i>
+                                        <i class="bx bx-show"></i>
                                         <span>71.4k</span>
                                     </div>
                                 </div>
@@ -483,40 +585,38 @@
                         </p>
 
                         <div class="footer__newsletter">
-                            <input type="email" placeholder="Your email address" class="footer__input">
+                            <input
+                                type="email"
+                                placeholder="Your email address"
+                                class="footer__input"
+                            />
                             <button class="footer__button">
-                                <i class='bx bx-right-arrow-alt'></i>
+                                <i class="bx bx-right-arrow-alt"></i>
                             </button>
                         </div>
                     </div>
                     <!-- footer data 1 -->
                     <div class="footer__data">
-                        <h2 class="footer__subtitle">
-                            Address
-                        </h2>  
+                        <h2 class="footer__subtitle">Address</h2>
                         <p class="footer__information">
-                            879 Kentucky Fried Ck. <br>
+                            879 Kentucky Fried Ck. <br />
                             Dixie Chicks LA. California, USA.
-                            <img src="./img/footerflag.png" alt="footer flag" class="footer__flag">
+                            <span class="footer__flag"> 🇺🇸 </span>
                         </p>
                     </div>
                     <!-- footer data 2 -->
                     <div class="footer__data">
-                        <h2 class="footer__subtitle">
-                            Contact
-                        </h2>  
+                        <h2 class="footer__subtitle">Contact</h2>
                         <p class="footer__information">
-                            +1 9485 236 743 <br>
+                            +1 9485 236 743 <br />
                             coffee@email.com
                         </p>
                     </div>
                     <!-- footer data 3 -->
                     <div class="footer__data">
-                        <h2 class="footer__subtitle">
-                            Office
-                        </h2>  
+                        <h2 class="footer__subtitle">Office</h2>
                         <p class="footer__information">
-                            Monday - Saturday <br>
+                            Monday - Saturday <br />
                             9AM - 10PM
                         </p>
                     </div>
@@ -525,13 +625,13 @@
                 <div class="footer__group">
                     <ul class="footer__social">
                         <a href="#" target="_blank" class="footer__social-link">
-                            <i class='bx bxl-facebook'></i>
+                            <i class="bx bxl-facebook"></i>
                         </a>
                         <a href="#" target="_blank" class="footer__social-link">
-                            <i class='bx bxl-instagram'></i>
+                            <i class="bx bxl-instagram"></i>
                         </a>
                         <a href="#" target="_blank" class="footer__social-link">
-                            <i class='bx bxl-twitter'></i>
+                            <i class="bx bxl-twitter"></i>
                         </a>
                     </ul>
 
@@ -543,8 +643,8 @@
         </footer>
 
         <!--========== SCROLL UP ==========-->
-        <a href="" class="scrollup" id="scroll-up">
-            <i class='bx bx-up-arrow-alt'></i>
+        <a href="#body-top" class="scrollup" id="scroll-up">
+            <i class="bx bx-up-arrow-alt"></i>
         </a>
 
         <!--=============== MIXITUP FILTER ===============-->
@@ -554,6 +654,3 @@
         <script src="app.js"></script>
     </body>
 </html>
-
-<!-- min 01.22:12 -->
-<!-- https://www.youtube.com/watch?v=kObf5-dJMpw&list=WL&index=1 -->
