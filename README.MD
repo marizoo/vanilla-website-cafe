@@ -25,4 +25,4 @@
 
 
 ## IMAGE:
-![Screenshot of the App](./screenshots/css-13.coffee-all-600.jpg)
+![Screenshot of the App](./screenshots/css-13-coffee-all-600.jpg)
