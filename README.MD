@@ -1,11 +1,11 @@
 
 ## DESCRIPTION:
-- A Mobile first responsive website with light-dark theme
-- [Youtube Video of the App](https://youtuuuuuuuuuuuuuuuuuuuuuuuu)
+- I cloned a mobile-first responsive website for a Cafe.
+- [Youtube Video of the App](https://youtu.be/-TijNlW-7g8)
 
 ## OUTCOME:
-- A Mobile first responsive website
-- link to the App's video on youtube: https://youtuuuuuuuuuuuuuuuu
+- A Mobile first responsive website, with filtering products feature.
+- link to the App's video on youtube: https://youtu.be/-TijNlW-7g8
 
 ## TECH STACKS:
 - HTML
@@ -15,7 +15,7 @@
     - Filtering data: https://www.kunkalabs.com/mixitup/
 
 ## PROGRESS:
-- Done: 
+- Done: 100%.
 
 
 ## View other projects:
